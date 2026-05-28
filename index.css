@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #dfd744;
+  color: #222 #222;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+main {
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 24px;
+}
+
+/* .highlight {
+  background: #fff3a3;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+} */
+
+/* .puppy {
+  border: 2px solid #f6d8d8;
+  border-radius: 12px;
+  padding: 16px;
+  background: #fafafa;
+} */
+
+/* .cards {
+  border: 2px solid #222;
+  border-radius: 12px;
+  padding: 16px;
+  background: #fafafa;
+  text-align: right;
+  font-size: 1.5rem;
+} */
+
+#app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (width >= 600px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.puppies {
+  display: grid;
+  gap: 1ch;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.puppies a {
+  display: block;
+  border: 2px dotted #040404;
+  border-radius: 0.25rem;
+  padding: 1ch;
+  text-decoration: none;
+  color: black;
+  background-color: #dfd744;
+}
+
+.puppies a:hover {
+  background: #eee;
+  font-style: italic;
+  border: 2px solid #040404;
+}
+
+.puppies li.selected {
+  font-weight: bold;
+  font-style: italic;
+}
+
+form {
+  display: grid;
+  gap: 1ch;
+  padding: 0 1rem;
+}
+
+/* label {
+  display: grid;
+} */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font: bold;
+}
+
+/* label {
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+select {
+  font-size: 0.9rem;
+  padding: 2px 5px;
+} */
